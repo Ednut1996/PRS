@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Admin</title>
+
+				<meta charset="utf-8">
+    			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  		  		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  		  		<link href="css/bootstrap.min.css" rel="stylesheet">
+  		  		 <link rel="stylesheet" type="text/css" href="style.css">
+		 
+</head>
+<body>
+		<div class="navbar navbar-default">
+
+			<div class="container">
+
+				<div class="header">
+
+						<a href="" class="navbar-brand">PRC </a>
+
+						<button type="button" class="navbar-toggle"
+						data-toggle="collapse"
+						data-target=".navbar-collapse">
+
+						<span class="sr-only">Toggle navigation</span>
+
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+
+						</button>
+
+				</div>
+
+					<div class="collapse navbar-collapse">
+					
+						<ul class="nav navbar-nav">
+
+							<li><a href="admindashboard.php">Dashboard</a></li>
+							<li><a href="logout.php">LOGOUT</a></li>
+
+
+							
+							
+
+						</ul>
+					</div>
+
+			</div>
+
+		</div>
+
+			<div class="container">
+
+				<div class="col-sm-6">
+
+					<form method="POST" action="adminregister.php">
+
+						<div class="form-group">
+						<label for="adminname">Name:</label>
+						<input type="text" class="form-control" name="adminname" placeholder="Name">
+						</div>
+
+						<div class="form-group">
+						<label for="adminemail">Email</label>
+						<input type="text" class="form-control" name="adminemail" placeholder="Email">
+						</div>
+
+						<div class="form-group">
+						<label for="adminusername">Username</label>
+						<input type="text" class="form-control" name="adminusername" placeholder="Username">
+						</div>
+						
+						<div class="form-group">
+						<label for="adminpassword">Password</label>
+						<input type="Password" class="form-control" name="adminpassword" placeholder="Password">
+						</div>
+						
+						 <button type="submit" class="btn btn-success">Submit</button> </button>
+
+					</form>
+
+				</div>
+
+			</div>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   
+  		<script src="js/bootstrap.min.js"></script>
+ 
+</body>
+
+</html>
